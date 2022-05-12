@@ -1,0 +1,256 @@
+{
+	"info": {
+		"_postman_id": "b4f5c523-46d9-4159-bbbc-2a15aab900c9",
+		"name": "Symfony5RestAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All Order",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTIzODM5MDAsImV4cCI6MTY1MjM4NzUwMCwicm9sZXMiOlsiUk9MRV9VU0VSIl0sIm1haWwiOiJhaG1ldEBleGFtcGxlLmNvbSJ9.Sbo2edF4ehOX8VhfA0U6lHMdqfcC8cHhwVWhssz-x4PsRYaJLor3UG4rWGlZLkRan1umBGkZhCHFibX1QrIORelRiMUDl366SkQgz3iuR8bwfKUz_6lB47-ulYv8IEjXh7zjYPi2w4yJOhAn3nXovXAXrnUHSnJ9TGsm1h47-tZ-heK5sKRU91LLzOKR-1hkIULJmeNTih-xyIQa5_ScdVvhkNgjKjYwBPquSowPs6pAbpoTZT13ve-xoVr1eEflUrIXUsmZWqKUlJKn0UnS1FZOzC3_AW-T5WV-e7-JZB_9x7X6CU_Iq0_bUGwSkhWbwYLjz8xO9oafWwfj4fXZTPZsCuH7tt7J-e9zUqB81Bc7b_R89atfNEdT7AOl_wQ97dk5lpqyNyrtRfyb0AGo-_xZ8SkN-XPLzc_5sqHpIeQ6AaBg-K4Or0xrmGLIrtRqsiqIT8B8pnfRh4DM9fwlAgJADPRX2hCeMuqQfu8TuAHbvBK0ABMYX408a0SaC-C4r9ETwslBqXvwoUJ_VacK4vQzMWNq1meCw_V9ln1VBgIJr4iXo7H5t0bMV5BpOWyrDUOPinMeLZseki00ZuEKypiTXlRZfSxyyC9c5KVMBJCYSepYNvo6ajH_yh4GAUdQxkxUG_m0jA7nxon76pwZwvoLHJOOhnnQr_ibi1jTRCk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/list",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show Detail",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTIzODM5MDAsImV4cCI6MTY1MjM4NzUwMCwicm9sZXMiOlsiUk9MRV9VU0VSIl0sIm1haWwiOiJhaG1ldEBleGFtcGxlLmNvbSJ9.Sbo2edF4ehOX8VhfA0U6lHMdqfcC8cHhwVWhssz-x4PsRYaJLor3UG4rWGlZLkRan1umBGkZhCHFibX1QrIORelRiMUDl366SkQgz3iuR8bwfKUz_6lB47-ulYv8IEjXh7zjYPi2w4yJOhAn3nXovXAXrnUHSnJ9TGsm1h47-tZ-heK5sKRU91LLzOKR-1hkIULJmeNTih-xyIQa5_ScdVvhkNgjKjYwBPquSowPs6pAbpoTZT13ve-xoVr1eEflUrIXUsmZWqKUlJKn0UnS1FZOzC3_AW-T5WV-e7-JZB_9x7X6CU_Iq0_bUGwSkhWbwYLjz8xO9oafWwfj4fXZTPZsCuH7tt7J-e9zUqB81Bc7b_R89atfNEdT7AOl_wQ97dk5lpqyNyrtRfyb0AGo-_xZ8SkN-XPLzc_5sqHpIeQ6AaBg-K4Or0xrmGLIrtRqsiqIT8B8pnfRh4DM9fwlAgJADPRX2hCeMuqQfu8TuAHbvBK0ABMYX408a0SaC-C4r9ETwslBqXvwoUJ_VacK4vQzMWNq1meCw_V9ln1VBgIJr4iXo7H5t0bMV5BpOWyrDUOPinMeLZseki00ZuEKypiTXlRZfSxyyC9c5KVMBJCYSepYNvo6ajH_yh4GAUdQxkxUG_m0jA7nxon76pwZwvoLHJOOhnnQr_ibi1jTRCk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/show/21",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"show",
+						"21"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Order",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTIzODM5MDAsImV4cCI6MTY1MjM4NzUwMCwicm9sZXMiOlsiUk9MRV9VU0VSIl0sIm1haWwiOiJhaG1ldEBleGFtcGxlLmNvbSJ9.Sbo2edF4ehOX8VhfA0U6lHMdqfcC8cHhwVWhssz-x4PsRYaJLor3UG4rWGlZLkRan1umBGkZhCHFibX1QrIORelRiMUDl366SkQgz3iuR8bwfKUz_6lB47-ulYv8IEjXh7zjYPi2w4yJOhAn3nXovXAXrnUHSnJ9TGsm1h47-tZ-heK5sKRU91LLzOKR-1hkIULJmeNTih-xyIQa5_ScdVvhkNgjKjYwBPquSowPs6pAbpoTZT13ve-xoVr1eEflUrIXUsmZWqKUlJKn0UnS1FZOzC3_AW-T5WV-e7-JZB_9x7X6CU_Iq0_bUGwSkhWbwYLjz8xO9oafWwfj4fXZTPZsCuH7tt7J-e9zUqB81Bc7b_R89atfNEdT7AOl_wQ97dk5lpqyNyrtRfyb0AGo-_xZ8SkN-XPLzc_5sqHpIeQ6AaBg-K4Or0xrmGLIrtRqsiqIT8B8pnfRh4DM9fwlAgJADPRX2hCeMuqQfu8TuAHbvBK0ABMYX408a0SaC-C4r9ETwslBqXvwoUJ_VacK4vQzMWNq1meCw_V9ln1VBgIJr4iXo7H5t0bMV5BpOWyrDUOPinMeLZseki00ZuEKypiTXlRZfSxyyC9c5KVMBJCYSepYNvo6ajH_yh4GAUdQxkxUG_m0jA7nxon76pwZwvoLHJOOhnnQr_ibi1jTRCk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"address\": \"İstanbul\",\r\n    \"products\": [\r\n        {\r\n            \"id\": 5,\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"id\": 10,\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/new",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTIzODM5MDAsImV4cCI6MTY1MjM4NzUwMCwicm9sZXMiOlsiUk9MRV9VU0VSIl0sIm1haWwiOiJhaG1ldEBleGFtcGxlLmNvbSJ9.Sbo2edF4ehOX8VhfA0U6lHMdqfcC8cHhwVWhssz-x4PsRYaJLor3UG4rWGlZLkRan1umBGkZhCHFibX1QrIORelRiMUDl366SkQgz3iuR8bwfKUz_6lB47-ulYv8IEjXh7zjYPi2w4yJOhAn3nXovXAXrnUHSnJ9TGsm1h47-tZ-heK5sKRU91LLzOKR-1hkIULJmeNTih-xyIQa5_ScdVvhkNgjKjYwBPquSowPs6pAbpoTZT13ve-xoVr1eEflUrIXUsmZWqKUlJKn0UnS1FZOzC3_AW-T5WV-e7-JZB_9x7X6CU_Iq0_bUGwSkhWbwYLjz8xO9oafWwfj4fXZTPZsCuH7tt7J-e9zUqB81Bc7b_R89atfNEdT7AOl_wQ97dk5lpqyNyrtRfyb0AGo-_xZ8SkN-XPLzc_5sqHpIeQ6AaBg-K4Or0xrmGLIrtRqsiqIT8B8pnfRh4DM9fwlAgJADPRX2hCeMuqQfu8TuAHbvBK0ABMYX408a0SaC-C4r9ETwslBqXvwoUJ_VacK4vQzMWNq1meCw_V9ln1VBgIJr4iXo7H5t0bMV5BpOWyrDUOPinMeLZseki00ZuEKypiTXlRZfSxyyC9c5KVMBJCYSepYNvo6ajH_yh4GAUdQxkxUG_m0jA7nxon76pwZwvoLHJOOhnnQr_ibi1jTRCk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"address\": \"İzmir\",\r\n  \"products\": [\r\n    {\r\n      \"id\": 5,\r\n      \"quantity\": 3\r\n    },\r\n    {\r\n      \"id\": 10,\r\n      \"quantity\": 5\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"quantity\": 3\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/update/21",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"update",
+						"21"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTIzODM5MDAsImV4cCI6MTY1MjM4NzUwMCwicm9sZXMiOlsiUk9MRV9VU0VSIl0sIm1haWwiOiJhaG1ldEBleGFtcGxlLmNvbSJ9.Sbo2edF4ehOX8VhfA0U6lHMdqfcC8cHhwVWhssz-x4PsRYaJLor3UG4rWGlZLkRan1umBGkZhCHFibX1QrIORelRiMUDl366SkQgz3iuR8bwfKUz_6lB47-ulYv8IEjXh7zjYPi2w4yJOhAn3nXovXAXrnUHSnJ9TGsm1h47-tZ-heK5sKRU91LLzOKR-1hkIULJmeNTih-xyIQa5_ScdVvhkNgjKjYwBPquSowPs6pAbpoTZT13ve-xoVr1eEflUrIXUsmZWqKUlJKn0UnS1FZOzC3_AW-T5WV-e7-JZB_9x7X6CU_Iq0_bUGwSkhWbwYLjz8xO9oafWwfj4fXZTPZsCuH7tt7J-e9zUqB81Bc7b_R89atfNEdT7AOl_wQ97dk5lpqyNyrtRfyb0AGo-_xZ8SkN-XPLzc_5sqHpIeQ6AaBg-K4Or0xrmGLIrtRqsiqIT8B8pnfRh4DM9fwlAgJADPRX2hCeMuqQfu8TuAHbvBK0ABMYX408a0SaC-C4r9ETwslBqXvwoUJ_VacK4vQzMWNq1meCw_V9ln1VBgIJr4iXo7H5t0bMV5BpOWyrDUOPinMeLZseki00ZuEKypiTXlRZfSxyyC9c5KVMBJCYSepYNvo6ajH_yh4GAUdQxkxUG_m0jA7nxon76pwZwvoLHJOOhnnQr_ibi1jTRCk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/delete/21",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"delete",
+						"21"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register New User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ahmet\",\r\n    \"mail\": \"ahmet@example.com\",\r\n    \"password\": \"ahmet\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mail\": \"ahmet@example.com\",\r\n    \"password\": \"ahmet\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login_check",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login_check"
+					]
+				},
+				"description": "1.  Kullanıcı :\n    \n\n``` json\n{\n    \"mail\": \"ahmet@example.com\",\n    \"password\": \"ahmet\"\n}\n\n```\n\n2\\. Kullanıcı\n\n``` json\n{\n    \"mail\": \"mehmet@example.com\",\n    \"password\": \"mehmet\"\n}\n\n```\n\n3\\. Kullanıcı\n\n``` json\n{\n    \"mail\": \"selim@example.com\",\n    \"password\": \"selim\"\n}\n\n```"
+			},
+			"response": []
+		}
+	]
+}
