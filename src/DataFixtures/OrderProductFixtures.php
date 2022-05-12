@@ -13,10 +13,12 @@ class OrderProductFixtures extends Fixture
     {
         $faker = new Factory();
 
+        $orderId = 1;
         for($i = 0; $i < 100; ++$i) {
-            $orderId = $i;
             if($i > 20){
                 $orderId = rand(1, 20);
+            }else{
+                ++$orderId;
             }
             $orderProduct = new OrderProduct();
             $orderProduct->setOrderId($orderId)
